@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap" rel="stylesheet"> 
+    <script src="./funciones.js"></script>
+    <title>Contactate</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1> <a href="./index.html"><img src="./imagenes/logotipo.png" alt="logotipo" width="150"></a> </h1>
+            <ul class="menu">
+                <li><a href="./origen.html">ORIGEN</a> </li>
+                <li><a href="./compra.html">DÓNDE COMPRAR</a> </li>
+                <li><a href="./contacto.html">CONTÁCTANOS</a> </li>
+                <li><a href="./variedades.html">NUESTRAS VARIEDADES</a> </li>
+            </ul>  
+        </nav>
+    </header>
+    <br><br>
+    <section class="formulario">
+        <div class="contacto">
+            <h1>CONTACTO</h1> <br><br>
+        </div>
+<form action="" >
+        <span>Nombre completo</span>
+        <input type="text" name="nombre" id="nombre"  placeholder="por ej, Juan Gomez" required ><br><br>
+        <span>Email</span>
+        <input type="text" name="email" id="email" placeholder="tudireccion@gmail.com" required><br><br>
+        <span>Telefono </span>
+        <input type="number" name="telefono" id="telefono" placeholder="Numero de telefono"><br><br>
+        <p>Seleccione su país</p>
+        <select name="pais" id="pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Mexico"> México</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Peru">Perú</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Otro">Otro...</option>
+        </select> <br> <br>
+        <textarea class="cuadro-texto" id="mensajito" placeholder="Tu Mensaje..."></textarea> <br><br>
+        <button type="submit" onclick="envio()">Aceptar </button>
+        <button type="reset" onclick="borrar()">Borrar</button><br>
+
+</form>        
+    </section>
+    <br><br>
+</body>
+<footer>
+    <div class="redes">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+</footer>
+</html>
